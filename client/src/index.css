@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e6ecf0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Amaranth", sans-serif;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+button,
+.button {
+  border: 0;
+  border-radius: 2px;
+  background: none;
+  font-size: 14px;
+  min-height: 36px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+  letter-spacing: 0.06em;
+}
+
+:root {
+  --primary: #0389d1;
+  --primary-60: rgba(3, 137, 209, 0.6);
+  --secondary: #03d1b2;
+  --danger: #f44336;
+  --primary-black: rgba(0, 0, 0, 0.88);
+  --secondary-black: rgba(0, 0, 0, 0.57);
+  --shadow: rgba(0, 0, 0, 0.14);
+}

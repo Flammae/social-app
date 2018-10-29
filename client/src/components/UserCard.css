@@ -1,0 +1,77 @@
+.user-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.14);
+  align-self: start;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.user-card img {
+  width: 100%;
+  /* opacity: 0; */
+  height: 280px;
+  display: block;
+}
+
+.user-card .info {
+  margin: 24px 16px 24px;
+}
+
+.user-card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.user-card .email {
+  color: var(--secondary-black);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.user-card .info > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.user-card .info-inner span:nth-child(odd) {
+  color: var(--secondary-black);
+}
+
+.user-card .follow {
+  height: 36px;
+  position: absolute;
+  padding: 0 28px;
+  top: calc(280px - 18px);
+  right: 16px;
+  background-color: var(--primary);
+  border-radius: 18px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  color: white;
+  box-shadow: 1px 1px 5px 1px var(--shadow);
+}
+
+.user-card .edit-button {
+  position: absolute;
+  top: calc(280px - 24px);
+  right: 16px;
+  height: 48px;
+  width: 48px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 1px 1px 5px 1px var(--shadow);
+}
+
+.user-card .link-to-user {
+  color: unset;
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.user .followers,
+.user .following {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 280px 280px 280px;
+  grid-gap: 16px;
+  margin-top: 40px;
+}

@@ -1,0 +1,19 @@
+.guest-join {
+  text-align: center;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.guest-join a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.guest-join h2 {
+  margin-bottom: 8px;
+}
+
+.guest-join a:hover {
+  text-decoration: underline;
+}

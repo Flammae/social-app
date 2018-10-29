@@ -1,0 +1,93 @@
+.login {
+  background-color: var(--primary);
+  display: grid;
+  place-content: center;
+  font-size: 16px;
+}
+
+.login h2 {
+  color: white;
+}
+
+.login form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 400px;
+}
+
+.login form > * {
+  grid-column: 1/ -1;
+}
+
+.login .small {
+  grid-column: span 1;
+}
+
+.login input {
+  /* border: 0; */
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 24px;
+  padding: 14px 24px;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.login input::-moz-placeholder {
+  color: white;
+}
+
+.login input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.8);
+}
+.login input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+.login input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+.login input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+.login button {
+  margin-top: 8px;
+  color: var(--primary-black);
+  background-color: white;
+  border: 0;
+  font-size: 16px;
+  padding: 12px 24px;
+  justify-self: end;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+.login a {
+  color: rgba(255, 255, 255, 0.8);
+  align-self: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+.login span {
+  position: relative;
+  top: -12px;
+  /* opacity: 0.8; */
+  font-size: 15px;
+  /* background-color: white; */
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}

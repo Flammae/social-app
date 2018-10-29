@@ -1,0 +1,80 @@
+header {
+  background-color: var(--primary);
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.14);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 64px;
+  color: white;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+  box-sizing: initial;
+  align-items: center;
+  width: 100%;
+}
+
+header,
+header .wrapper,
+header nav,
+header .user {
+  display: flex;
+  align-items: center;
+}
+
+header .search-input input {
+  min-height: 36px;
+  font-size: 14px;
+  border: none;
+  padding: 0 16px;
+  min-width: 320px;
+  border-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  break-before: 0;
+}
+
+header .search-input button {
+  min-height: 36px;
+  padding: 0 16px;
+  background-color: rgb(241, 241, 241);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: var(--secondary-black);
+  font-weight: bold;
+}
+
+header .search-input button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+header .user img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+header a {
+  color: white;
+  margin-left: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border-radius: 2px;
+}
+
+header a:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+}

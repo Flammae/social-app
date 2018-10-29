@@ -1,0 +1,57 @@
+.edit {
+  margin: 40px 0 80px;
+}
+
+.edit h2 {
+  margin: 0 0 24px;
+}
+
+.user .edit-grid {
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-gap: 16px;
+}
+
+.user .edit-grid .long {
+  grid-column: 2 / 4;
+}
+
+.user .edit .placeholder-image {
+  height: 280px;
+  background-size: cover;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-position: center;
+}
+
+.user .edit .full-width {
+  grid-column: span 3;
+  background-color: white;
+  padding: 16px;
+  border: 1px solid var(--shadow);
+  border-radius: 2px;
+}
+
+.user .edit p {
+  margin: 0;
+}
+
+.user .edit .button {
+  color: white;
+  background-color: var(--secondary);
+  opacity: 0.9;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.edit .save-button {
+  background-color: var(--primary) !important;
+  color: white;
+  border: 0 !important;
+  padding: 8px !important;
+  opacity: 0.8;
+}
+
+.edit .save-button:hover {
+  opacity: 1;
+}

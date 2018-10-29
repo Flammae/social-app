@@ -1,0 +1,7 @@
+.user .center {
+  display: grid;
+  grid-template-columns: 280px auto;
+  grid-gap: 40px;
+  justify-content: center;
+  margin: 0 32px;
+}

@@ -1,0 +1,8 @@
+.main .center {
+  display: grid;
+  grid-template-columns: 280px 600px minmax(0, 280px);
+  grid-gap: 40px;
+  justify-content: center;
+  margin: 0 32px;
+  margin-top: 80px;
+}

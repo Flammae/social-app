@@ -1,0 +1,61 @@
+.arrow-link a {
+  --color: #555;
+  color: var(--color);
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  height: 36px;
+  margin-bottom: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* transition: 0.2s; */
+}
+
+.arrow-link.active a {
+  color: white;
+  background-color: var(--color);
+  border: 0;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+.arrow-link.active a::after {
+  --size: 26px;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: -13px;
+  /* opacity: 0.5; */
+  background-color: var(--color);
+  width: var(--size);
+  height: var(--size);
+  transform: rotate(45deg);
+  border-radius: 2px;
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+.arrow-link.active a::before {
+  --size: 26px;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: -13px;
+  /* opacity: 0.5; */
+  background-color: var(--color);
+  width: var(--size);
+  height: var(--size);
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+.arrow-link:not(.active) a:hover {
+  color: var(--primary-black);
+}

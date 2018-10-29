@@ -1,0 +1,19 @@
+.previews {
+  width: 280px;
+}
+
+.previews > div {
+  position: fixed;
+  width: inherit;
+}
+
+.previews .heading {
+  font-weight: bold;
+  font-family: "Amaranth", sans-serif;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.previews .list {
+  border-left: 2px solid var(--shadow);
+}
